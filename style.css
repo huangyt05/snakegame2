@@ -4,11 +4,27 @@ html, body {
     background-color: rgb(122, 122, 122);
   }
   canvas {
-    margin:15rem auto;
+    margin:18vh auto;
     /* transform: scale(2); */
     display: block;
   }
   
-  button{
+  button {
+    
+    width: max-content;
+    background-color: black;
+    color:white;
+    border: 1px solid white;
+    cursor: pointer;
+    position: relative;
+  /*   padding-left: 50%;
+    padding-right: 50%; */
+  }
+  
+  #buttonContainer{
+    position: relative;
+    width: 100vw;
     margin: 0 auto;
+    top: 90vh;
+    text-align: center;
   }
