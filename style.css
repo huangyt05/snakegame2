@@ -1,0 +1,14 @@
+html, body {
+    margin: 0 auto;
+    padding: 0;
+    background-color: rgb(122, 122, 122);
+  }
+  canvas {
+    margin:15rem auto;
+    /* transform: scale(2); */
+    display: block;
+  }
+  
+  button{
+    margin: 0 auto;
+  }
